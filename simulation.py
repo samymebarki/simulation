@@ -147,8 +147,6 @@ def simulate_trading():
                 'is_win': win_loss,
                 'risk_level': f"{risk_level * 100:.2f}%",
                 'cumulative_profit': f"{cumulative_profit:.2f}%",
-                'current_consecutive_wins': current_consecutive_wins,
-                'current_consecutive_losses': current_consecutive_losses
             })
             total_trades += 1  # Increment total trades counter
 
